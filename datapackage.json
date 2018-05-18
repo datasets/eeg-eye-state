@@ -1,0 +1,109 @@
+{
+    "licences": [
+        {
+            "path": "http://opendatacommons.org/licenses/pddl/",
+            "name": "odc-pddl",
+            "title": "Open Data Commons Public Domain Dedication and Licence (PDDL)"
+        }
+    ],
+    "sources": [
+        {
+            "path": "https://www.openml.org/d/1471",
+            "title": "OpenML - eeg-eye-state"
+        }
+    ],
+    "resources": [
+        {
+            "profile": "tabular-data-resource",
+            "path": "data\\eeg-eye-state.csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "format": "csv",
+            "schema": {
+                "missingValues": [
+                    ""
+                ],
+                "fields": [
+                    {
+                        "type": "number",
+                        "format": "default",
+                        "name": "AF3"
+                    },
+                    {
+                        "type": "number",
+                        "format": "default",
+                        "name": "F7"
+                    },
+                    {
+                        "type": "number",
+                        "format": "default",
+                        "name": "F3"
+                    },
+                    {
+                        "type": "number",
+                        "format": "default",
+                        "name": "FC5"
+                    },
+                    {
+                        "type": "number",
+                        "format": "default",
+                        "name": "T7"
+                    },
+                    {
+                        "type": "number",
+                        "format": "default",
+                        "name": "P"
+                    },
+                    {
+                        "type": "number",
+                        "format": "default",
+                        "name": "O1"
+                    },
+                    {
+                        "type": "number",
+                        "format": "default",
+                        "name": "O2"
+                    },
+                    {
+                        "type": "number",
+                        "format": "default",
+                        "name": "P8"
+                    },
+                    {
+                        "type": "number",
+                        "format": "default",
+                        "name": "T8"
+                    },
+                    {
+                        "type": "number",
+                        "format": "default",
+                        "name": "FC6"
+                    },
+                    {
+                        "type": "number",
+                        "format": "default",
+                        "name": "F4"
+                    },
+                    {
+                        "type": "number",
+                        "format": "default",
+                        "name": "F8"
+                    },
+                    {
+                        "type": "number",
+                        "format": "default",
+                        "name": "AF4"
+                    },
+                    {
+                        "type": "integer",
+                        "format": "default",
+                        "name": "class"
+                    }
+                ]
+            },
+            "name": "eeg-eye-state"
+        }
+    ],
+    "name": "eeg-eye-state",
+    "title": "EEG Eye State"
+}
